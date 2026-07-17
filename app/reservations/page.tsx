@@ -3,7 +3,7 @@
 'use client'   
 import { useState, useEffect } from 'react'
 
-export default function Reservations(props) {         // props untyped [issue 2]
+export default function Reservations(props) {
   const [items, setItems] = useState([])
 
   useEffect(() => {
